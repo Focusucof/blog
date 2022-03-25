@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@font-face {
+    font-family: unifont;
+    src: url(/assets/fonts/unifont.ttf) format('truetype');
+}
+
+body {
+  background-color: #18191c;
+  font-family: 'segoe ui', 'unifont', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
+
+div{
+  max-width: 100%;
+  width: 100%;
+}
+
+pre {
+  font-family: 'unifont' !important;
+  display: block;
+}
+
+pre, code {
+  padding: 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  webkit-box-sizing: border-box;
+  display: block; 
+  white-space: pre-wrap;  
+  white-space: -moz-pre-wrap; 
+  white-space: -pre-wrap; 
+  white-space: -o-pre-wrap; 
+  word-wrap: break-word; 
+  width:100%; overflow-x:auto;
+ }
+
+p {
+  line-height: 12pt;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  display: block;
+}
+
+a {
+  color: #02e2e2;
+  text-decoration: none
+}
+
+.posts {
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .posts {
+      width: 70%;
+  }
+
+  .content {
+    width: 50%;
+  }
+}
+
+.blink {
+  -webkit-animation: blink 2s infinite both;
+          animation: blink 2s infinite both;
+}
+
+@-webkit-keyframes blink {
+0%,
+50%,
+100% {
+  opacity: 1;
+}
+25%,
+75% {
+  opacity: 0;
+}
+}
+@keyframes blink {
+0%,
+50%,
+100% {
+  opacity: 1;
+}
+25%,
+75% {
+  opacity: 0;
+}
+}
+
+.justify {
+  text-align: justify;
+}
+
+
+/* body {
+    background-color: #18191c;
+    font-family: 'segoe ui', 'unifont', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    max-width: 100%;
+}
+
+.posts {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content {
+  font-family: sans-serif !important;
+  line-height: 12pt;
+}
+
+.content h1 {
+  padding-top: 5%;
+  font-size: bigger;
+  font-weight: bolder;
+  line-height: 0%;
+  display: flex;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    display: block;
+}*/
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.align-center {
+    align-items: center;
+}
+
+.text {
+    color: #fff;
+}
+
+/*
+.blink {
+    -webkit-animation: blink 2s infinite both;
+            animation: blink 2s infinite both;
+}
+
+@-webkit-keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+} */
+
