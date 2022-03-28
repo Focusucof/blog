@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 
 div{
@@ -56,6 +56,13 @@ a {
   text-decoration: none
 }
 
+li {
+  display: inline;
+  float: left;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 .posts {
   width: 50%;
 }
@@ -68,6 +75,8 @@ a {
   .content {
     width: 50%;
   }
+
+  
 }
 
 .blink {
@@ -76,80 +85,40 @@ a {
 }
 
 @-webkit-keyframes blink {
-0%,
-50%,
-100% {
-  opacity: 1;
-}
-25%,
-75% {
-  opacity: 0;
-}
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
 }
 @keyframes blink {
-0%,
-50%,
-100% {
-  opacity: 1;
-}
-25%,
-75% {
-  opacity: 0;
-}
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
 }
 
 .justify {
   text-align: justify;
 }
 
-
-/* body {
-    background-color: #18191c;
-    font-family: 'segoe ui', 'unifont', sans-serif;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 5%;
-    max-width: 100%;
-}
-
-.posts {
-    width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.content {
-  font-family: sans-serif !important;
-  line-height: 12pt;
-}
-
-.content h1 {
-  padding-top: 5%;
-  font-size: bigger;
-  font-weight: bolder;
-  line-height: 0%;
-  display: flex;
-}
-
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-    display: block;
-}*/
-
 .center {
     display: flex;
     flex-direction: column;
 }
 
+.inline {
+    display: inline;
+}
 
 .align-center {
     align-items: center;
@@ -159,7 +128,6 @@ h1 {
     color: #fff;
 }
 
-/*
 .blink {
     -webkit-animation: blink 2s infinite both;
             animation: blink 2s infinite both;
@@ -186,5 +154,29 @@ h1 {
   75% {
     opacity: 0;
   }
-} */
+}
 
+.title {
+    font-size: 4em;
+}
+
+.post-list {
+    min-height: 75vh;
+}
+
+.link-reset {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.socials-header {
+  padding-top: 1%;
+  padding-bottom: 3%;
+}

@@ -1,13 +1,9 @@
-import Container from '../components/container'
 import MoreStories from '../components/more-stories'
-import HeroPost from '../components/hero-post'
-import Intro from '../components/intro'
-import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
 import Post from '../types/post'
 import Header from '../components/header'
+import SocialHeader from '../components/socialsheader'
 
 type Props = {
   allPosts: Post[]
@@ -21,8 +17,11 @@ const Index = ({ allPosts }: Props) => {
         <title>Devin</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
+      <SocialHeader />
       <Header />
-      {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+      <div className='post-list'>
+        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+      </div>
     </div>
   )
 }
