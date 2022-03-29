@@ -7,6 +7,6 @@ const SocialsHeader = () => {
             <Socials />
         </div>
     );
-}
+};
 
 export default SocialsHeader;

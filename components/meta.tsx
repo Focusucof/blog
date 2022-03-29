@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 const Meta = () => {
   return (
@@ -36,7 +36,7 @@ const Meta = () => {
         content={`A statically generated blog example using Next.js`}
       />
     </Head>
-  )
-}
+  );
+};
 
-export default Meta
+export default Meta;

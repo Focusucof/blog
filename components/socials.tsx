@@ -1,4 +1,4 @@
-import Container from './container'
+import Container from './container';
 import { GitHub, Twitter, Twitch } from 'react-feather';
 
 const Socials = () => {
@@ -26,7 +26,7 @@ const Socials = () => {
         </div>
       </Container>
     </footer>
-  )
-}
+  );
+};
 
 export default Socials;

@@ -1,5 +1,5 @@
-import Socials from './socials'
-import Meta from './meta'
+import Socials from './socials';
+import Meta from './meta';
 
 type Props = {
   preview?: boolean
@@ -15,7 +15,7 @@ const Layout = ({ preview, children }: Props) => {
       </div>
       <Socials />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

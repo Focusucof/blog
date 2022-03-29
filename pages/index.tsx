@@ -1,9 +1,9 @@
-import MoreStories from '../components/more-stories'
-import { getAllPosts } from '../lib/api'
-import Head from 'next/head'
-import Post from '../types/post'
-import Header from '../components/header'
-import SocialHeader from '../components/socialsheader'
+import MoreStories from '../components/more-stories';
+import { getAllPosts } from '../lib/api';
+import Head from 'next/head';
+import Post from '../types/post';
+import Header from '../components/header';
+import SocialHeader from '../components/socialsheader';
 
 type Props = {
   allPosts: Post[]
@@ -23,10 +23,10 @@ const Index = ({ allPosts }: Props) => {
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;
 
 export const getStaticProps = async () => {
   const allPosts = getAllPosts([
@@ -34,9 +34,9 @@ export const getStaticProps = async () => {
     'date',
     'slug',
     'author',
-  ])
+  ]);
 
   return {
     props: { allPosts },
-  }
-}
+  };
+};
