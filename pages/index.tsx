@@ -14,7 +14,7 @@ const Index = ({ allPosts }: Props) => {
   return (
     <div className='center align-center'>
       <Head>
-        <title>Devin</title>
+        <title>Focus</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <SocialHeader />
