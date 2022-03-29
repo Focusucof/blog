@@ -17,7 +17,7 @@ const Index = ({ allPosts }: Props) => {
         <title>Devin</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      {/* <SocialHeader /> */}
+      <SocialHeader />
       <Header />
       <div className='post-list center align-center'>
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}

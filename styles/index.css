@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 
 div {
@@ -177,5 +177,4 @@ li {
 
 .socials-header {
   padding-top: 1%;
-  padding-bottom: 3%;
 }

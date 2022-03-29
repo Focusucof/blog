@@ -17,11 +17,11 @@ const Socials = () => {
               <Twitter />
             </a>
           </li>
-          <li>
-            <a href="https://www.twitch.tv/firstfocus" target="_blank" rel="noopener noreferrer" className='link-reset'>
-              <Twitch />
+          {/* <li>
+            <a href="" target="_blank" rel="noopener noreferrer" className='link-reset'>
+              
             </a>
-          </li>
+          </li> */}
         </ul>
         </div>
       </Container>
