@@ -9,7 +9,7 @@
 
 body {
   background-color: #18191c;
-  font-family: 'segoe ui', 'unifont', sans-serif;
+  font-family: 'unifont', 'segoe ui', sans-serif;
   color: white;
   display: flex;
   flex-direction: column;

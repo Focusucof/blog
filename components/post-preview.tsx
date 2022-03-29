@@ -1,10 +1,8 @@
 import Link from 'next/link'
-import Author from '../types/author'
 
 type Props = {
   title: string
   date: string
-  author: Author
   slug: string
   number: number
 }
@@ -12,7 +10,6 @@ type Props = {
 const PostPreview = ({
   title,
   date,
-  author,
   slug,
   number
 }: Props) => {

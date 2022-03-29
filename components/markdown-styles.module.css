@@ -12,6 +12,7 @@
 
 .markdown h1 {
   @apply font-bold;
+  padding-top: 5%;
 }
 
 .markdown h2 {
