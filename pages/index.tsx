@@ -16,6 +16,7 @@ const Index = ({ allPosts }: Props) => {
       <Head>
         <title>Focus</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="shortcut icon" href="/favicon/favicon.ico"></link>
       </Head>
       <SocialHeader />
       <Header />
