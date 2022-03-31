@@ -23,3 +23,9 @@
   /* @apply text-2xl mt-8 mb-4 leading-snug; */
   margin-bottom: 5%;
 }
+
+.markdown blockquote {
+  @apply text-lg leading-relaxed;
+  border-left: 2px solid #e1e4e8;
+  padding-left: 2rem;
+}
