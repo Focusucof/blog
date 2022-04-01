@@ -29,3 +29,10 @@
   border-left: 2px solid #e1e4e8;
   padding-left: 2rem;
 }
+
+.markdown code {
+  @apply text-lg leading-relaxed;
+  border-left: 2px solid #e1e4e8;
+  padding-left: 2rem;
+  font-size: small;
+}
